@@ -1,0 +1,45 @@
+.custom-filter {
+  margin-top: 20px;
+}
+
+.custom-filter ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  padding-inline-start: 0px;
+}
+
+.custom-filter li {
+  padding: 7px 16px;
+  margin-left: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.custom-filter li div {
+  color: #1f457c;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.custom-filter .active {
+  border: 1px solid #1f457c;
+  border-radius: 8px;
+  opacity: 0.7;
+}
+
+.custom-filter .active div {
+  color: #1f457c !important;
+}
+
+.filter-btn-cutom {
+  color: #fff;
+  background-color: #1f457c;
+  border: none;
+  padding: 10px 14px;
+  border-radius: 50px;
+  cursor: pointer;
+  margin-right: 15px;
+}

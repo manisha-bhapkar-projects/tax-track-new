@@ -1,0 +1,84 @@
+.custom-file-upload-hidden {
+  display: none;
+  visibility: hidden;
+  position: absolute;
+  left: -9999px;
+}
+
+.custom-file-upload {
+  display: block;
+  width: auto;
+  margin-top: 30px;
+  /* border: 1px solid #ccc; */
+}
+
+.custom-file-upload label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.file-upload-wrapper {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  /* margin-bottom: 5px; */
+  border: 1px solid #ccc;
+}
+
+.file-upload-input {
+  width: 70%;
+  color: #464961;
+  font-size: 15px;
+  padding: 11px 17px;
+  border: none;
+  /* border-bottom: 1px solid #464961; */
+  background-color: transparent;
+  transition: all 0.2s ease;
+  float: left;
+  height: 50px;
+  /* IE 9 Fix */
+}
+
+.file-upload-input:hover,
+.file-upload-input:focus {
+  outline: none;
+}
+
+.file-upload-button {
+  display: inline-block;
+  background: #1e447b !important;
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+  outline: none;
+  border: none;
+  text-transform: capitalize;
+  padding: 14px 20px;
+  /* margin-left: -1px; */
+  /* border-bottom: 1px solid #464961; */
+  background-color: #f0efe9;
+  /* float: left; */
+  transition: all 0.2s ease;
+  height: 50px;
+  width: 30%;
+  cursor: pointer;
+}
+
+.file-upload-button:hover {
+  background-color: #d7d6d0;
+}
+
+.modal-split {
+  margin: 30px 0;
+}
+
+.modal-split h2 {
+  font-size: 1rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.modal-footer .btn-primary,
+.modal-footer .btn-secondery {
+  font-size: 16px;
+}
